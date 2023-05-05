@@ -1,0 +1,94 @@
+body {
+    background-color: darkslategray;
+}
+h1 {
+    font-family: 'Rubik Vinyl', cursive; 
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    height: 95px;
+    width: 1883px;
+    display: block;
+    box-sizing: border-box;
+    color: #ffff;
+}
+#main{
+  height: 1855px;
+  width: 1903px;
+  display: grid;
+  box-sizing: border-box;
+}
+.card {
+    height: 245px;
+    width: 1522.39px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09 );
+    box-shadow: 0px 2px 1px; 
+    min-height: auto;
+    min-width: auto;
+    background-color:rgb(89, 94, 94);
+}
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration:none solid rgb(244,164,96) ;
+    color: #f4a460;
+    height: 42px;
+    width: 1502.39px;
+    box-sizing: border-box;
+}
+p {
+    font-weight: 300;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: justify;
+    text-indent: 16px;
+    color: #ffff;
+    height: 36px;
+    width: 1502.39px;
+    box-sizing: border-box;
+}
+img {
+    height: 225px;
+    width: 416.5px;
+    padding: 5px;
+    float: left;
+    display: block;
+    overflow: clip;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+img:hover{
+    height: 245px;
+    width: 416.5px;
+    padding: 5px;
+}
+.button {
+    font-family: arial;
+    font-size: 13.3333px;
+    text-decoration: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #ff7f50;
+    color: #ffff;
+    height: 35px;
+    width: 100px;
+    margin: 10px 10px 0px 0px ;
+    float: right;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+}
+.button:hover {
+    height: 45px;
+    width: 120px;
+}
+a {
+  color: #ffff;
+  text-decoration: none;
+}
